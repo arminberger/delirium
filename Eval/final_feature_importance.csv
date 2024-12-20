@@ -1,0 +1,55 @@
+feature,importance,rank
+6:_anaesthesia_Spinal,0.13500171890394966,1
+6:_anaesthesia_General anaesthesia,0.09752644710281333,2
+27:_laryngeal_mask_BI_Tube,0.06986628872764362,3
+6:_anaesthesia_EEG used (is protective),0.04980846938059271,4
+"6:_anaesthesia_TCI (Target Controlled Infusion: drugs on level of brain receptors. Algorithm, so should be better than TIVA weight-based.)",0.029418848038519057,5
+4:_surgical_speciality_Gyn/Obs,0.028218792946463917,6
+6:_anaesthesia_Cont. Temp. Monitoring,0.025479627300534113,7
+27:_laryngeal_mask_BI_LMA,0.020909617973130814,8
+7:_prevention_Eyeblinds/earplugs_offerede,0.02020788087900675,9
+4:_surgical_speciality_General,0.019977500269351762,10
+21: patient_uses_dentures_BI,0.01884075247173286,11
+(5:_setting)_Outpatient,0.01800757294479168,13
+15_stress_nrs_BI,0.01782415807674778,14
+19:_patient_uses_visual_aids_BI,0.01729052223256387,15
+25:_noise_reduction_performed_BI,0.01728501449562026,16
+7:_prevention_Atropin used,0.01717312202554228,17
+4:_surgical_speciality_Neuro,0.016856799070891833,18
+6:_anaesthesia_Cont. Analgesic (painkiller,0.01665985091096603,19
+16:_general_well-being_nrs _0-10_BI,0.015763833256847815,20
+4:_surgical_speciality_Urology,0.01522750830475996,21
+6:_anaesthesia_TIVA (Total intravenous anesthesia: based on only weight.),0.01355447928072684,22
+27:_laryngeal_mask_BI_Muscle relaxants,0.01303161389316656,23
+7:_prevention_Paticipation_from_relatives,0.012842809120377599,24
+27:_laryngeal_mask_BI_Video laryngoscope,0.012821021470258097,25
+7:_prevention_PONV_(SOP used),0.01217508268193872,26
+23:_thirst_feeling: _nrs_0-10_BI,0.011851646909170366,27
+9:_pain_BI_Mobilization_NRS,0.011847974667498378,28
+21a: dentures_present_BI,0.011846197505317535,29
+7:_prevention_Capnography_used_(w_sedatives),0.011818142798165232,30
+9:_pain_BI_Resting_NRS,0.011669348539198016,31
+14_anxiety_nrs_BI,0.011647793784212657,32
+19a:_visual_aid_present_BI,0.011274929282295135,33
+11:_rass_score_BI,0.011117923555003129,34
+6:_anaesthesia_Sedation,0.010992338122873794,35
+7:_prevention_Preemptive_Analgesia_(SOP used) - painkillers,0.010495378328457617,36
+4:_surgical_speciality_Other,0.01027536117442746,37
+6:_anaesthesia_Benzo premed (RISKFactor),0.010212033530803159,38
+age,0.010037924593126123,39
+20a:_hearing_aid_present_BI,0.010029492140295726,40
+24:_temperature _c_BI,0.009894271404910757,41
+3:_asa-ps,0.0096210068328584,42
+4:_surgical_speciality_nan,0.009054268073188557,43
+28:_quality-evaluation_of_screening_BI,0.008813859896846054,44
+(5:_setting)_Inpatient,0.008408621177329606,45
+4:_surgical_speciality_Trauma/Orth.,0.008034770114953564,46
+22:_fluids_p.o._>200_ml_BI,0.007835933071176677,47
+20: patient_uses_hearing_aids_BI,0.006984250414049327,48
+4:_surgical_speciality_Plastic/breast,0.006616167575084017,49
+18a:_nausea_BI,0.00652210433617275,50
+(5:_setting)_Acute,0.005481621966771513,51
+Gender,0.004670963079294327,52
+13:_moyb_BI,0.00277119881449334,53
+(5:_setting)_Trauma,0.00014481901180623036,54
+7:_prevention_EMLA offered - anesthetic cream,0.0,55
