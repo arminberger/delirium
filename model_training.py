@@ -896,7 +896,7 @@ if __name__ == "__main__":
             perform_recursive_feature_elimination=False,
             only_one_recursive_feature_elimination=True,
             rfe_num_features=5,
-            model_type="xgb",
+            model_type="logistic",
             log_and_square_features=False,
             poly_features=0,
             rfe_model_type="constant",
@@ -908,37 +908,4 @@ if __name__ == "__main__":
         # Save imp to disk
         # imp.to_csv("feature_importance_logistic_wsgn.csv", index=False)
 
-    """
-    models = []
-    eval_results_list = []
-    for seed in seeds:
-        model, eval_results = train_ensemble_model(df_used, random_state=seed)
-        models.append(model)
-        eval_results_list.append(eval_results)
-    print(
-        f"Mean AUC: {np.mean([eval_results['auc'] for eval_results in eval_results_list]):.3f} ± {np.std([eval_results['auc'] for eval_results in eval_results_list]):.3f}"
-    )
-    print(
-        f"Mean AUC-PR: {np.mean([eval_results['auc_pr'] for eval_results in eval_results_list]):.3f} ± {np.std([eval_results['auc_pr'] for eval_results in eval_results_list]):.3f}"
-    )
-    print(
-        f"Mean F1 Score (Non-Delirium): {np.mean([eval_results['NoDelirium_f1'] for eval_results in eval_results_list]):.3f} ± {np.std([eval_results['NoDelirium_f1'] for eval_results in eval_results_list]):.3f}"
-    )
-    print(
-        f"Mean F1 Score (Delirium): {np.mean([eval_results['Delirium_f1'] for eval_results in eval_results_list]):.3f} ± {np.std([eval_results['Delirium_f1'] for eval_results in eval_results_list]):.3f}"
-    )
-    print(
-        f"Mean Recall (Non-Delirium): {np.mean([eval_results['NoDelirium_recall'] for eval_results in eval_results_list]):.3f} ± {np.std([eval_results['NoDelirium_recall'] for eval_results in eval_results_list]):.3f}"
-    )
-    print(
-        f"Mean Precision (Non-Deliriium): {np.mean([eval_results['NoDelirium_precision'] for eval_results in eval_results_list]):.3f} ± {np.std([eval_results['NoDelirium_precision'] for eval_results in eval_results_list]):.3f}"
-    )
-    print(
-        f"Mean Recall (Delirium): {np.mean([eval_results['Delirium_recall'] for eval_results in eval_results_list]):.3f} ± {np.std([eval_results['Delirium_recall'] for eval_results in eval_results_list]):.3f}"
-    )
-    print(
-        f"Mean Precision (Delirium): {np.mean([eval_results['Delirium_precision'] for eval_results in eval_results_list]):.3f} ± {np.std([eval_results['Delirium_precision'] for eval_results in eval_results_list]):.3f}"
-    )
-    print(
-        f"Mean Accuracy: {np.mean([eval_results['accuracy'] for eval_results in eval_results_list]):.3f} ± {np.std([eval_results['accuracy'] for eval_results in eval_results_list]):.3f}"
-    )"""
+
